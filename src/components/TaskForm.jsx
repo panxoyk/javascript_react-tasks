@@ -27,7 +27,7 @@ function TaskForm ({createTask}) {
             onChange={(e) => setDescription(e.target.value)}
             value={description}
         ></textarea>
-        <button> Guardar </button>
+        <button> Save Task </button>
     </form>
 };
 
